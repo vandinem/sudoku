@@ -23,4 +23,6 @@ Which represents this board:
 060 | 209 | 070       6  | 2 9 |  7 
 ```
 
-The basic_sudoku.pl perl script was culled from my first solver attempt.  This script was all over the place and has not been rigorously tested (it fails on some boards that other scripts handle without issue ... but I haven't tried to track down why.
+The **[basic_sudoku.pl] (basic_sudoku.pl)** perl script was culled from my first solver attempt long ago.  This script was all over the place and has not been rigorously tested (it fails on some boards that other scripts handle without issue ... but I haven't tried to track down why.)  My Perl had gotten better at this point, although my understanding of the puzzle had not.  The script takes 1,100+ lines to accomplish what the site's PHP version manages in about 200 lines (**sudtest.php** excerpts the key code into a console script) .  I think the approach is similar in spirit between the two.  I'd solved a lot more sudoku boards by the time I got to the PHP attempt, though, and was smarter about using some built-in functions when examining the boards and choosing numbers.
+
+
