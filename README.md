@@ -23,3 +23,4 @@ Which represents this board:
 060 | 209 | 070       6  | 2 9 |  7 
 ```
 
+The basic_sudoku.pl perl script was culled from my first solver attempt.  This script was all over the place and has not been rigorously tested (it fails on some boards that other scripts handle without issue ... but I haven't tried to track down why.
